@@ -692,11 +692,11 @@ h1.maintitle {
 /*-------------------------------------------------------*/
 
 .watermark-home{
-	width: 336px;
-	height: 360px;
+	width: 321px;
+	height: 343px;
 	position: absolute;
 	bottom: 0px;
-	right: 30px;
+	right: 15px;
 	background: url(../images/profile.png) no-repeat;
 	background-size: contain;
 	background-position: right;
