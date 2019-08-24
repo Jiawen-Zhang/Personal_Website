@@ -702,8 +702,13 @@ h1.maintitle {
 	background-position: right;
 }
 .personal-info-title {
+	background: #f4d03f;
 	font-size: 22.5px;
-	margin-top: 65px;
+	margin-top: 20px;
+	color: #111111;
+	display: inline-block;
+	margin-left: 0px;
+	text-transform: capitalize;
 }
 .personal-info {
 	list-style: none;
@@ -720,7 +725,7 @@ ul.personal-info li {
 	padding: 4px 10px 5px;
 	color: #fff;
 	display: inline-block;
-	margin-left: 9px;
+	margin-left: 0px;
 	text-transform: capitalize;
 }
 
