@@ -873,6 +873,7 @@ ul.personal-info li {
 .education-class .list-content {
 	color: #666;
 	padding: 0px 15px;
+	width: 110%;
 	height: 0px;
 	 -webkit-transition: height 0.5s; /* Safari */
 	 -moz-transition: height 0.5s; /* Mozila */
