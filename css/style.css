@@ -878,7 +878,7 @@ ul.personal-info li {
 	 -moz-transition: height 0.5s; /* Mozila */
 	 -o-transition: height 0.5s; /* Opera */
 		 transition: height 0.5s;
-	overflow: hidden;
+	overflow-y: scroll;
 }
 .list-content > .title {
 	font-weight: 700;
