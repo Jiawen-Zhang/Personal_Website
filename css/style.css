@@ -316,7 +316,7 @@ strong {
 	color: #333;
 }
 
-span.year{color: #F9BF3B; float: right;}
+div.year{color: #F9BF3B;}
 /*.......................................................*/
 
 /*---------Bootstrap Class Override-----------*/
@@ -821,6 +821,7 @@ ul.personal-info li {
 .employment-class li{
 	position: relative;
 	margin-bottom: 15px;
+	width: 110%;
 	background-color: #111111;
 	padding: 15px;
 	color: #F7EFE2;
