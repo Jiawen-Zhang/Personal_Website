@@ -207,10 +207,10 @@ function showPage(bt, pagename) {
                 delay: 350,
                 easing: TWEEN.Easing.Sinusoidal.In
             }, function() { // callback when tween is finished  
-                if (pagename == "contact" && !mapLoaded) { //loads Maps
+                /*if (pagename == "contact" && !mapLoaded) { //loads Maps
                     initMap();
                     mapLoaded = true;
-                }
+                }*/
             });
             pageTitleCont.jQueryTween({
                 from: {
@@ -278,10 +278,10 @@ function showPage(bt, pagename) {
                 delay: 350,
                 easing: TWEEN.Easing.Sinusoidal.In
             }, function() { // callback when tween is finished  
-                if (pagename == "contact" && !mapLoaded) { //loads Maps
+                /*if (pagename == "contact" && !mapLoaded) { //loads Maps
                     initMap();
                     mapLoaded = true;
-                }
+                }*/
             });
 
 
@@ -502,7 +502,7 @@ $(document).on('ready', function() {
     },4000);
 
 
-    initMap();
+    /*initMap();*/
 
     $('.tabs').tabslet({
       mouseevent: 'click',
