@@ -701,6 +701,18 @@ h1.maintitle {
 	background-size: contain;
 	background-position: right;
 }
+
+.watermark-contact{
+	width: 257px;
+	height: 343px;
+	position: relative;
+	bottom: 0px;
+	padding-top: 10px;
+	padding-left: 10px;
+	background-size: contain;
+	background-position: right;
+}
+
 .personal-info-title {
 	background: #f4d03f;
 	font-size: 22.5px;
