@@ -647,7 +647,7 @@ $(document).on('ready', function() {
                         color: endColor
                     }
                 });
-                circle3.animate(0.90, {
+                circle3.animate(0.85, {
                     from: {
                         color: startColor
                     },
@@ -657,7 +657,7 @@ $(document).on('ready', function() {
                 });
             }, 1200);
             setTimeout(function() {
-                circle2.animate(0.85, {
+                circle2.animate(0.90, {
                     from: {
                         color: startColor
                     },
