@@ -177,7 +177,7 @@ function showPage(bt, pagename) {
                 easing: TWEEN.Easing.Sinusoidal.Out
             }, function() { // callback when tween is finished  
                 pageContListSelected.addClass('hidden');
-                pageContListSelected.find(".description").css('height', '475px');
+                pageContListSelected.find(".description").css('height', '575px');
                 pageContListSelected.removeClass('selected');
                 pageContListID.removeClass('hidden');
                 pageContListID.addClass('selected');
@@ -201,7 +201,7 @@ function showPage(bt, pagename) {
                     height: 0
                 },
                 to: {
-                    height: 475
+                    height: 575
                 },
                 duration: 700,
                 delay: 350,
@@ -639,7 +639,7 @@ $(document).on('ready', function() {
                 trailWidth: 21,
             });
             setTimeout(function() {
-                circle1.animate(0.90, {
+                circle1.animate(0.95, {
                     from: {
                         color: startColor
                     },
@@ -647,7 +647,7 @@ $(document).on('ready', function() {
                         color: endColor
                     }
                 });
-                circle3.animate(0.85, {
+                circle3.animate(0.90, {
                     from: {
                         color: startColor
                     },
@@ -657,7 +657,7 @@ $(document).on('ready', function() {
                 });
             }, 1200);
             setTimeout(function() {
-                circle2.animate(0.95, {
+                circle2.animate(0.85, {
                     from: {
                         color: startColor
                     },

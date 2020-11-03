@@ -627,7 +627,7 @@ h1.maintitle {
 	/* Description Design Section */
 /*-------------------------------------------------------*/
 .description {
-	height: 475px;
+	height: 575px;
 	position: relative;
 	background-color: #fff;
 	padding: 15px 30px;
@@ -636,7 +636,7 @@ h1.maintitle {
 
 .description p {
 	margin: 15px 0px;
-	padding-right: 75px;
+	padding-right: 10px;
 }
 
 .strong-text {
@@ -692,8 +692,8 @@ h1.maintitle {
 /*-------------------------------------------------------*/
 
 .watermark-home{
-	width: 321px;
-	height: 343px;
+	width: 280px;
+	height: 300px;
 	position: absolute;
 	bottom: 0px;
 	right: 15px;
@@ -816,7 +816,7 @@ ul.personal-info li {
 
 .tab-cont{
 	position: relative;
-	height: 300px;
+	height: 400px;
 	overflow-y: scroll;		
 }
 
@@ -833,7 +833,7 @@ ul.personal-info li {
 .employment-class li{
 	position: relative;
 	margin-bottom: 15px;
-	width: 110%;
+	width: 100%;
 	background-color: #111111;
 	padding: 15px;
 	color: #F7EFE2;
@@ -902,7 +902,7 @@ ul.personal-info li {
 	margin-left: 5px;
 }
 .education-class .current .list-content{
-	height: 110px;
+	height: 150px;
 }
 .education-class .current i {
 	color: #111111;
@@ -927,7 +927,7 @@ ul.personal-info li {
 	height: 100%;		
 } 
 .circle-skill-container {
-	max-width: 395px;
+	width: 100%;
 	padding: 5px;
 	padding-left: 0;
 }
@@ -1070,7 +1070,7 @@ span.address-icon{
 }
 
 .folio-container{
-   height: 380px;
+   height: 500px;
     overflow-y: scroll;
     padding-bottom: 40px; 
 }
