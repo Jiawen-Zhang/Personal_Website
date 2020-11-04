@@ -1417,6 +1417,19 @@ color: #F7EFE2;
 	.mobile-social {
 		float: none;
 	}
+	.watermark-home{
+		visibility: hidden;
+	}
+	.bar {
+		margin-left: 50px;
+		width: 80%;
+	}
+	.circle-skill-container h5 {
+		margin-top: 10px;
+		font-weight: 600;
+		text-transform: uppercase;
+		font-size: 8px;
+	}
 }
 
 
